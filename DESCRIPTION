@@ -1,0 +1,29 @@
+Package: popjustr
+Type: Package
+Title: Read data from the Popjustice fora
+Version: 0.1
+Authors@R:
+    person("Richèl J.C.", "Bilderbeek", email = "rjcbilderbeek@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-1107-7049"))
+Maintainer: Richèl J.C. Bilderbeek <rjcbilderbeek@gmail.com>
+Description: Popjustice is a website that hosts multiple fora.
+    In these fora, music is discussed.
+    This R package extracts the data from these forum posts.
+License: GPL-3
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+Imports:
+    readr,
+    stringr
+Suggests:
+    dplyr,
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0),
+    tibble,
+    tidyr
+URL: https://github.com/richelbilderbeek/popjustr
+BugReports: https://github.com/richelbilderbeek/popjustr/issues
+Language: en-US
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
